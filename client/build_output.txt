@@ -1,0 +1,149 @@
+
+> client@0.1.0 build
+> react-scripts build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Creating an optimized production build...
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Compiled with warnings.
+
+[eslint] 
+src\components\AdminLayout.jsx
+  Line 7:13:  'user' is assigned a value but never used  no-unused-vars
+
+src\components\Navbar.jsx
+  Line 27:6:  React Hook useEffect has a missing dependency: 'theme'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\components\Sidebar.jsx
+  Line 1:17:   'useState' is defined but never used       no-unused-vars
+  Line 1:27:   'useEffect' is defined but never used      no-unused-vars
+  Line 3:28:   'FaUser' is defined but never used         no-unused-vars
+  Line 3:64:   'FaBell' is defined but never used         no-unused-vars
+  Line 3:105:  'FaHome' is defined but never used         no-unused-vars
+  Line 7:13:   'user' is assigned a value but never used  no-unused-vars
+
+src\pages\About.jsx
+  Line 3:27:  'FaShieldAlt' is defined but never used  no-unused-vars
+  Line 3:40:  'FaUsers' is defined but never used      no-unused-vars
+
+src\pages\Rootlayout.jsx
+  Line 1:17:  'useEffect' is defined but never used  no-unused-vars
+
+src\pages\admin\ContestantsView.jsx
+  Line 46:6:    React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array           react-hooks/exhaustive-deps
+  Line 50:6:    React Hook useEffect has a missing dependency: 'filterContestants'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 328:17:  Duplicate key 'background'                                                                                            no-dupe-keys
+
+src\pages\admin\Contests.jsx
+  Line 9:17:   'FaEdit' is defined but never used                                                                                 no-unused-vars
+  Line 10:33:  'FaImage' is defined but never used                                                                                no-unused-vars
+  Line 49:6:   React Hook useEffect has a missing dependency: 'loadContests'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+  Line 53:6:   React Hook useEffect has a missing dependency: 'filterContests'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\admin\Dashboard.jsx
+  Line 5:80:   'FaUserTimes' is defined but never used                                                                      no-unused-vars
+  Line 5:93:   'FaExclamationTriangle' is defined but never used                                                            no-unused-vars
+  Line 8:17:   'stats' is assigned a value but never used                                                                   no-unused-vars
+  Line 11:10:  'recentLogs' is assigned a value but never used                                                              no-unused-vars
+  Line 60:6:   React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\admin\Logs.jsx
+  Line 28:6:  React Hook useEffect has a missing dependency: 'filterLogs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\admin\Results.jsx
+  Line 6:15:   'FaEye' is defined but never used                      no-unused-vars
+  Line 6:22:   'FaEyeSlash' is defined but never used                 no-unused-vars
+  Line 7:31:   'FaTrophy' is defined but never used                   no-unused-vars
+  Line 7:41:   'FaFire' is defined but never used                     no-unused-vars
+  Line 7:49:   'FaUsers' is defined but never used                    no-unused-vars
+  Line 8:52:   'FaSync' is defined but never used                     no-unused-vars
+  Line 12:17:  'refreshData' is assigned a value but never used       no-unused-vars
+  Line 16:10:  'expandedContests' is assigned a value but never used  no-unused-vars
+  Line 131:9:  'toggleExpanded' is assigned a value but never used    no-unused-vars
+
+src\pages\admin\Settings.jsx
+  Line 5:25:   'FaImage' is defined but never used                                                                              no-unused-vars
+  Line 5:46:   'FaToggleOff' is defined but never used                                                                          no-unused-vars
+  Line 5:126:  'FaExclamationCircle' is defined but never used                                                                  no-unused-vars
+  Line 11:10:  'settings' is assigned a value but never used                                                                    no-unused-vars
+  Line 54:6:   React Hook useEffect has a missing dependency: 'loadSettings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\admin\Users.jsx
+  Line 2:10:    'Link' is defined but never used                                                                                no-unused-vars
+  Line 5:67:    'getActivityLogByUserId' is defined but never used                                                              no-unused-vars
+  Line 6:78:    'FaUser' is defined but never used                                                                              no-unused-vars
+  Line 6:119:   'FaLock' is defined but never used                                                                              no-unused-vars
+  Line 6:157:   'FaChevronLeft' is defined but never used                                                                       no-unused-vars
+  Line 6:172:   'FaChevronRight' is defined but never used                                                                      no-unused-vars
+  Line 6:206:   'FaUndo' is defined but never used                                                                              no-unused-vars
+  Line 39:6:    React Hook useEffect has a missing dependency: 'loadUsers'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+  Line 43:6:    React Hook useEffect has a missing dependency: 'filterUsers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 221:9:   'handleResetVote' is assigned a value but never used                                                            no-unused-vars
+  Line 257:13:  'updated' is assigned a value but never used                                                                    no-unused-vars
+  Line 294:17:  'updated' is assigned a value but never used                                                                    no-unused-vars
+  Line 353:11:  'updated' is assigned a value but never used                                                                    no-unused-vars
+
+src\pages\user\Activity.jsx
+  Line 23:6:  React Hook useEffect has a missing dependency: 'loadActivities'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\user\History.jsx
+  Line 21:6:  React Hook useEffect has a missing dependency: 'loadVotingHistory'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\user\Notifications.jsx
+  Line 4:98:   'FaFilter' is defined but never used                                                                                    no-unused-vars
+  Line 4:118:  'FaTrash' is defined but never used                                                                                     no-unused-vars
+  Line 7:80:   'refreshData' is assigned a value but never used                                                                        no-unused-vars
+  Line 23:6:   React Hook useEffect has a missing dependency: 'filterNotifications'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 31:11:  'allowedTypes' is assigned a value but never used                                                                       no-unused-vars
+
+src\pages\user\Requests.jsx
+  Line 42:6:  React Hook useEffect has a missing dependency: 'loadRequests'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\user\Vote.jsx
+  Line 158:6:  React Hook useEffect has a missing dependency: 'getHasVotedState'. Either include it or remove the dependency array            react-hooks/exhaustive-deps
+  Line 193:6:  React Hook useEffect has a missing dependency: 'getLatestRequestForContest'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\store\AppContext.js
+  Line 4:51:    'addContest' is defined but never used                                                                                                                       no-unused-vars
+  Line 4:63:    'updateContest' is defined but never used                                                                                                                    no-unused-vars
+  Line 4:78:    'deleteContest' is defined but never used                                                                                                                    no-unused-vars
+  Line 5:65:    'addContestant' is defined but never used                                                                                                                    no-unused-vars
+  Line 5:80:    'updateContestant' is defined but never used                                                                                                                 no-unused-vars
+  Line 5:98:    'deleteContestant' is defined but never used                                                                                                                 no-unused-vars
+  Line 7:3:     'getNotifications' is defined but never used                                                                                                                 no-unused-vars
+  Line 7:47:    'getUnreadNotificationCount' is defined but never used                                                                                                       no-unused-vars
+  Line 8:3:     'getRequests' is defined but never used                                                                                                                      no-unused-vars
+  Line 8:37:    'getPendingRequests' is defined but never used                                                                                                               no-unused-vars
+  Line 8:69:    'updateRequest' is defined but never used                                                                                                                    no-unused-vars
+  Line 9:16:    'updateSettings' is defined but never used                                                                                                                   no-unused-vars
+  Line 10:3:    'getActivityLogs' is defined but never used                                                                                                                  no-unused-vars
+  Line 311:6:   React Hook useEffect has missing dependencies: 'syncCurrentUserFromServer' and 'syncServerElectionData'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 614:11:  'notifications' is assigned a value but never used                                                                                                           no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  165.24 kB  build\static\js\main.83c205c3.js
+  12.12 kB   build\static\css\main.99988648.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
